@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>Профиль</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <div class="pinf">
+      <h2>Профиль</h2>
+      <p>Email: <span id="profileEmail"></span></p>
+      <p>Имя: <span id="profileFirstName"></span></p>
+      <p>Фамилия: <span id="profileLastName"></span></p>
+    </div>
+    <div class="createConf">
+      <button id="createConferenceButton">Создать конференцию</button>
+    </div>
+    <div class="joinConf">
+      <form id="joinConferenceForm">
+        <input type="text" id="conferenceId" placeholder="Введите ID конференции">
+        <button type="submit">Присоединиться к конференции</button>
+      </form>
+    </div>
+  </main>
+  <script src="profile.js"></script>
+</body>
+</html>
